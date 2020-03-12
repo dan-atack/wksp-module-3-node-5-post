@@ -40,7 +40,7 @@ You should only send an error code if there actually is an error.
 
 ## Details
 
-Take a look at the `promo.js` in the `data` folder. This is your _database_. It containd current stock levels as well as past customers... Business isn't exactly booming.
+Take a look at the `promo.js` in the `data` folder. This is your _database_. It contains current stock levels as well as past customers... Business isn't exactly booming.
 
 You will need to import this data wherever you need to use it. At the top of the file you can require them with 
 

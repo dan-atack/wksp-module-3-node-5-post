@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> You're Almost There! </title>
+    </head>
+    <body>
+        <h1>Order Confirmation:</h1>
+        <div>
+            <p> Item Ordered: <%- order %> </p>
+            <p> <% if (size) `Size: ${size}` %></p>
+            <p> Client Name: <%- `${givenName} ${surname}` %></p>
+            <p> Email: <%- email %> </p>
+            <p> Address: <%- `${address}, ${city}, ${province}, ${country}` %> </p>
+            <p> <%- postcode %> </p>
+            <p> Thank you for your order! Delivery is free, but don't hold your breath...</p>
+        </div>
+    </body>
+</html>

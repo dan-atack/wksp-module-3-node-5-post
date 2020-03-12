@@ -26,7 +26,7 @@ body {
 .order-image {
     background: url(./assets/question.jpg) no-repeat center;
     background-size: cover;
-    height: 190px;
+    height: 256px;
     width: 100%;
     overflow: hidden;
 }

@@ -1,0 +1,13 @@
+<%- include('../partials/header') %>
+<div class="header">
+    <h1>TO DO LIST:</h1>
+</div>
+<%- include('../partials/input') %>
+<ol>
+    <% list.forEach(item => { %>
+    <li>
+        <%= item %>
+    </li>
+    <% }); %>
+</ol>
+<%- include('../partials/footer') %>
